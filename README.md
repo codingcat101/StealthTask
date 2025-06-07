@@ -1,4 +1,4 @@
-# ⚽ Soccer Player & Ball Tracker using YOLOv8 + ByteTrack
+# ⚽ Soccer Player & Ball Tracker using YOLOv11 + ByteTrack
 
 This project performs automated detection and tracking of **soccer players**, **referees**, and the **ball** in a video using **YOLOv11** [Object detection model link: https://drive.google.com/file/d/1-5fOSHOSB9UXyP enOoZNAMScrePVcMD/view
 Note: The model is a basic fine-tuned version of Ultralytics YOLOv11, trained for players and the ball.] and **ByteTrack** via the [Supervision](https://github.com/roboflow/supervision) library. The result is an annotated video where players and referees are marked with ellipses and the ball with a triangle.
